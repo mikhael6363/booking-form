@@ -6,7 +6,8 @@
 .el-date-table td.today span,
 .el-date-table td.available:hover, 
 .el-date-picker__header-label.active,
-.el-date-picker__header-label:hover {
+.el-date-picker__header-label:hover,
+.time-select-item.selected:not(.disabled) {
   color: #00e687;
 }
 
