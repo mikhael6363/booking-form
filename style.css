@@ -6,10 +6,13 @@
 .el-date-table td.today span,
 .el-date-table td.available:hover, 
 .el-date-picker__header-label.active,
-.el-date-picker__header-label:hover,
+.el-date-picker__header-label:hover {
+  color: #00e687;
+}
+
 .el-input.is-active .el-input__inner,
 .el-input__inner:focus {
-  color: #00e687;
+  border-color: #00e687;
 }
 
 .el-button--primary {
