@@ -1,0 +1,32 @@
+.el-date-table td.current:not(.disabled) span {
+  background: #00e687;
+  color: #000000;
+}
+
+.el-date-table td.today span,
+.el-date-table td.available:hover, 
+.el-date-picker__header-label.active,
+.el-date-picker__header-label:hover {
+  color: #00e687;
+}
+
+.el-button--primary {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  padding: 20px 22px;
+  font-size: 13px;
+  line-height: 11.5px;
+  letter-spacing: 0.3px;
+  background-color: #000000;
+  border: none;
+  border-radius: 0;
+  transition: all .4s cubic-bezier(.32,.94,.6,1) !important;
+}
+
+.el-button--primary:hover,
+.el-button--primary:active,
+.el-button--primary:focus {
+  background-color: #00e687;
+  box-shadow: none;
+  color: #000000;
+}
