@@ -1,3 +1,7 @@
+#__nuxt {
+  overflow: hidden;
+}
+
 .el-date-table td.current:not(.disabled) span {
   background: #00e687;
   color: #000000;
