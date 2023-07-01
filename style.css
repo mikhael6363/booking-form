@@ -22,9 +22,11 @@ html, #__nuxt {
 
 .SearchHotdesks__title {
   font-size: 24px;
+  margin-bottom: 4rem;
 }
 
 .el-button--primary {
+  margin-top: 1rem;
   font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   padding: 20px 22px;
