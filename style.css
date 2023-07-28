@@ -20,7 +20,7 @@ html, #__nuxt {
   border-color: #00e687;
 }
 
-.SearchHotdesks__title {
+.scoped__step-one [class$="__title"] {
   font-size: 24px;
   margin-bottom: 4rem;
 }
